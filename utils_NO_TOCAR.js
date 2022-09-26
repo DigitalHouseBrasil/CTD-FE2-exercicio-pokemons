@@ -2,8 +2,8 @@
 const statsNames = {
   hp: "hp",
   attack: "ataque",
-  defense: "defensa",
-  speed: "velocidad",
+  defense: "defesa",
+  speed: "velocidade",
 };
 
 // NO TOCAR
@@ -17,30 +17,30 @@ function createPokemonCard(pokemon, order) {
       src="..."
       class="card-img-top"
       alt="pokemon-${order}"
-      id="imagen-pokemon-${order}"
+      id="pokemon-image-${order}"
     />
     <div class="card-body">
-      <h5 class="card-title" id="nombre-pokemon-${order}">${pokemon.toUpperCase()}</h5>
+      <h5 class="card-title" id="pokemon-name-${order}">${pokemon.toUpperCase()}</h5>
       <p class="card-text">Skills</p>
       <span>HP</>
-      <div class="contenedor-barra">
-        <div id="barra-hp-${order}"></div>
-        <span id="cantidad-hp-${order}"></span>
+      <div class="bar-container">
+        <div id="hp-bar-${order}"></div>
+        <span id="hp-amount-${order}"></span>
       </div>
       <span>Ataque</>
-      <div class="contenedor-barra">
-        <div id="barra-ataque-${order}"></div>
-        <span id="cantidad-ataque-${order}"></span>
+      <div class="bar-container">
+        <div id="attack-bar-${order}"></div>
+        <span id="attack-amount-${order}"></span>
       </div>
-      <span>Defensa</>
-      <div class="contenedor-barra">
-        <div id="barra-defensa-${order}"></div>
-        <span id="cantidad-defensa-${order}"></span>
+      <span>Defesa</>
+      <div class="bar-container">
+        <div id="defense-bar-${order}"></div>
+        <span id="defence-amount-${order}"></span>
       </div>
-      <span>Velocidad</>
-      <div class="contenedor-barra">
-        <div id="barra-velocidad-${order}"></div>
-        <span id="cantidad-velocidad-${order}"></span>
+      <span>Velocidade</>
+      <div class="bar-container">
+        <div id="speed-bar-${order}"></div>
+        <span id="speed-amount-${order}"></span>
       </div>
     </div>
   `;

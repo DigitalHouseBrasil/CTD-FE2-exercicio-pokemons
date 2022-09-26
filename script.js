@@ -1,26 +1,25 @@
 async function fillPokemonData(name, order) {
-  //NO TOCAR - ESTA VARIABLE CONTIENE LA INFORMACIÓN SOBRE LOS POKEMONS,
-  // QUE USARÁS PARA COMPLETAR LAS ACTIVIDADES
+  // Não mudar - Esta variável contém a informação sobre os Pokemons,
+  // Que você vai usar para completar as atividades
   const pokemonData = await getPokemonData(name);
 
-  //Actividades
+  //Atividades
 
-  // 1) Insertar la imagen del pokemon dentro cada card. Para ello,
-  // puedes explorar los elementos HTML utilizando las Dev Tools de tu
-  // navegador.
+  // 1) Insira a imagem do pokemon dentro de cada card. Para isso,
+  // você pode explorar os elementos HTML usando o Dev Tools do seu navegador
 
-  // 2) Utilizando los stats de cada pokemon, deberás rellenar cada una de las
-  // barras que figuran en la card. Dependiendo de la cantidad de cada atributo
-  // tendrás que decidir el color que tendrá la barra en cada caso:
-  // Si la habilidad es menor a 35, la barra será de color rojo
-  // Si la habilidad es mayor o igual a 35 pero menor que 70, la barra será amarilla
-  // Si la habilidad es igual o mayor a 70, la barra será de color verde.
-  // Deberás utilizar las clases que se encuentran en el archivo styles.css
+  // 2) Utilizando os stats de cada pokemon, você deve encher uma das
+  // barras que aparecem no card. Dependendo da quantidade de cada atributo
+  // você terá de decidir a cor da barra em cada caso:
+  // Se a habilidade é menor a 35, a barra será de color vermelha
+  // Se a habilidade é maior ou igual a 35, mas menor que 70, a barra será amarela
+  // Se a habilidade é igual ou maior a 70, a barra será de cor verde.
+  // Você deve utilizar as classes que estão no arquivo styles.css
 
-  //ESCRIBE TU CÓDIGO A CONTINUACIÓN DENTRO DE LA FUNCIÓN:
+  //Escreva seu código abaixo dentro da função:
 }
 
-//LISTADO DE POKEMONS - PUEDES CAMBIAR POR TU FAVORITO!
+//Lista de Pokemons - Você pode alterar para os seus favoritos!
 const pokemons = ["pikachu", "bulbasaur", "charmander", "diglett"];
 
 //INICIALIZADOR - NO TOCAR
